@@ -1,21 +1,3 @@
-let m =[
-  {
-    "title": "Why We Use <br> Element",
-    "answer_1": "To Make Text Bold",
-    "answer_2": "To Make Text Italic",
-    "answer_3": "To Add Breakline",
-    "answer_4": "To Create Horizontal Line",
-    "right_answer": "To Add Breakline"
-  },
-    {
-    "title": "Is <img> Element Has Attribute href",
-    "answer_1": "Yes",
-    "answer_2": "No Its For Anchor Tag <a>",
-    "answer_3": "All Elements Has This Attribute",
-    "answer_4": "Answer 1 And 3 Is Right",
-    "right_answer": "No Its For Anchor Tag <a>"
-  },
-  ]
 
 
 
@@ -45,7 +27,7 @@ let m =[
 			if(this.readyState === 4 && this.status === 200){
 				
 				let questionsObject = JSON.parse(this.responseText);
-				let questionsCount = questionsObject.length;
+				let qCount = questionsObject.length;
 				
 				// Create Bullets + Set Questions Count
 				createBullets(questionsCount)
