@@ -30,7 +30,7 @@
 				let qCount = questionsObject.length;
 				
 				// Create Bullets + Set Questions Count
-				createBullets(questionsCount)
+				createBullets(qCount)
 				
 				// Add Question Data
 				addQuestionData(questionsObject[currentIndex], qCount);
